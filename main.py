@@ -17,7 +17,7 @@ class ResearchResponse(BaseModel):
 
 
 llm = ChatOpenAI(
-        model="llama3.2:latest",
+        model="llama3.1",
         base_url="http://localhost:11434/v1",
         api_key="ollama")
 

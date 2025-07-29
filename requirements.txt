@@ -5,3 +5,7 @@ langchain-openai
 langchain-anthropic
 python-dotenv
 pydantic
+duckduckgo-search
+langchain-google-community
+langchain-ollama
+langchain-tavily
