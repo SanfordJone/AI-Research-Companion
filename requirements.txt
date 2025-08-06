@@ -1,11 +1,44 @@
-langchain
+# Core dependencies
+streamlit>=1.28.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Enhanced research tools
 wikipedia
-langchain-community
-langchain-openai
-langchain-anthropic
-python-dotenv
-pydantic
-duckduckgo-search
-langchain-google-community
-langchain-ollama
-langchain-tavily
+arxiv>=2.1.0
+scholarly>=1.7.11
+newspaper3k>=0.2.8
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+pytube>=15.0.0
+youtube-transcript-api>=0.6.2
+
+# Data processing and visualization
+pandas>=2.0.0
+plotly>=5.17.0
+wordcloud>=1.9.2
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+
+# Database and vector stores
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# Web scraping and APIs
+tavily-python>=0.3.0
+duckduckgo-search>=6.0.0
+requests-html>=0.10.0
+
+# File handling
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Deployment
+gunicorn>=21.2.0
